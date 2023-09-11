@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(248, 245, 232);
+}
+
+a {
+    color: rgb(248, 245, 232);
+    text-decoration: none;
+}
+
+a:hover { 
+    color: goldenrod;
+}
+
+.main {
+    width: 600px;
+    margin: 12px auto 100px;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+div.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: black;
+}
+
+.navigation p {
+    margin: auto 1em;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    margin: 100px auto;
+
+}
